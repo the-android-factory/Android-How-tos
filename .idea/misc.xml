@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/domre/AndroidStudioProjects/HowTo/app/src/main/res/layout/activity_coil_image_loading.xml" value="0.5208333333333334" />
         <entry key="..\:/Users/domre/AndroidStudioProjects/HowTo/app/src/main/res/layout/activity_glide_image_loading.xml" value="0.5208333333333334" />
         <entry key="..\:/Users/domre/AndroidStudioProjects/HowTo/app/src/main/res/layout/activity_main.xml" value="0.5046875" />
+        <entry key="..\:/Users/domre/AndroidStudioProjects/HowTo/app/src/main/res/layout/activity_picasso_image_loading.xml" value="0.5208333333333334" />
         <entry key="..\:/Users/domre/AndroidStudioProjects/HowTo/app/src/main/res/layout/activity_simple_data_display.xml" value="0.5010416666666667" />
       </map>
     </option>

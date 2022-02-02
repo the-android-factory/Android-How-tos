@@ -23,6 +23,8 @@
 
         <activity android:name=".SimpleDataDisplayActivity" />
         <activity android:name=".GlideImageLoadingActivity" />
+        <activity android:name=".PicassoImageLoadingActivity" />
+        <activity android:name=".CoilImageLoadingActivity" />
     </application>
 
 </manifest>

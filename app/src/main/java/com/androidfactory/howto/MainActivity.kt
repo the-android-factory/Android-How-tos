@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.glideButton).setOnClickListener {
             startActivity(Intent(this, GlideImageLoadingActivity::class.java))
         }
+
+        findViewById<Button>(R.id.picassoButton).setOnClickListener {
+            startActivity(Intent(this, PicassoImageLoadingActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.coilButton).setOnClickListener {
+            startActivity(Intent(this, CoilImageLoadingActivity::class.java))
+        }
     }
 }
