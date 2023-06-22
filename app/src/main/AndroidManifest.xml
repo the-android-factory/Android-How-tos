@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HowTo">
         <activity
+            android:name=".UILImageLoadingActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".SimpleDataDisplayActivity" />
         <activity android:name=".GlideImageLoadingActivity" />
         <activity android:name=".PicassoImageLoadingActivity" />

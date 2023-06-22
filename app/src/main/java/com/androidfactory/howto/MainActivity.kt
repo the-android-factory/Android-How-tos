@@ -10,13 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button: Button = findViewById(R.id.simpleDataDisplayActivityButton)
-        button.setOnClickListener {
-            val intent = Intent(this, SimpleDataDisplayActivity::class.java)
-            intent.putExtra("data", "Hello from MainActivity")
-            startActivity(intent)
-        }
-
         findViewById<Button>(R.id.glideButton).setOnClickListener {
             startActivity(Intent(this, GlideImageLoadingActivity::class.java))
         }
@@ -27,6 +20,10 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.coilButton).setOnClickListener {
             startActivity(Intent(this, CoilImageLoadingActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.uilButton).setOnClickListener {
+            startActivity(Intent(this, UILImageLoadingActivity::class.java))
         }
     }
 }
