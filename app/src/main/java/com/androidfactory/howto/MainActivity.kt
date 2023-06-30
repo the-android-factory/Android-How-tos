@@ -25,5 +25,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.uilButton).setOnClickListener {
             startActivity(Intent(this, UILImageLoadingActivity::class.java))
         }
+
+        findViewById<Button>(R.id.frescoButton).setOnClickListener {
+            startActivity(Intent(this, FrescoImageLoadingActivity::class.java))
+        }
     }
 }
